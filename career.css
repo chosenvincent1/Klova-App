@@ -406,7 +406,7 @@ footer p {
 
   .hero{
   max-width: 1300px;
-  height: 900px;
+  /* height: 900px; */
   margin: auto;
   padding: 20px;
   }
@@ -460,7 +460,7 @@ footer p {
     max-width: 1300px;
     padding: 20px;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 450px;
   }
 
   .policy{
@@ -641,6 +641,7 @@ footer p {
   .newsletter{
     max-width: 1300px;
     padding: 20px;
+    margin: auto;
   }
 
 
