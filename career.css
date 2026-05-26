@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppin', sans-serif ;
+  font-family: "Poppin", sans-serif;
 }
 
 body {
@@ -63,29 +63,29 @@ a {
   color: #000;
 }
 
-
-.hero{
+.hero {
+  width: 100%;
   width: 100%;
   height: 500px;
   margin: auto;
 }
 
-.career{
+.career {
   width: 342px;
   height: 152px;
   margin: auto;
 }
 
-.career h1{
+.career h1 {
   margin-bottom: 20px;
   margin-top: 20px;
 }
 
-.career p{
+.career p {
   color: #9a9ea6;
 }
 
-.btn{
+.btn {
   width: 342px;
   height: 48px;
   background-color: #ff4337;
@@ -98,13 +98,13 @@ a {
   font-size: 20px;
 }
 
-.hero img{
+.hero img {
   display: block;
   margin: 0 auto;
   margin-top: 30px;
 }
 
-.culture{
+.culture {
   width: 342px;
   height: 20px;
   display: block;
@@ -113,62 +113,57 @@ a {
   font-size: 20px;
 }
 
-
-
-
-
-
-.policy{
+.policy {
   width: 342px;
   height: 60px;
   margin: auto;
   line-height: 40px;
 }
 
-.policy h4{
+.policy h4 {
   font-size: 30px;
 }
 
-.policy p{
+.policy p {
   font-size: 18px;
 }
 
-.senior-dev{
+.senior-dev {
   max-width: 400px;
-  margin: auto;   
+  margin: auto;
 }
 
-.toronto{
+.toronto {
   width: 350px;
   height: 228px;
-  background-color: #EFF1F7;
+  background-color: #eff1f7;
   margin: 0 auto;
   border-radius: 12px;
   margin-top: 30px;
 }
 
-.full-time{
+.full-time {
   display: flex;
   gap: 130px;
   justify-content: center;
   padding-top: 20px;
 }
 
-.web{
+.web {
   font-size: 20px;
   font-weight: 600;
   padding-top: 15px;
   padding-left: 19px;
 }
 
-.card{
-  padding-left: 19px; 
+.card {
+  padding-left: 19px;
   padding-top: 5px;
   font-size: 16px;
   color: grey;
 }
 
-.time{
+.time {
   width: 310px;
   margin: auto;
   display: flex;
@@ -178,58 +173,57 @@ a {
   padding-top: 40px;
 }
 
-.calendar{
+.calendar {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-.build{
+.build {
   margin-bottom: 40px;
 }
 
-.today{
+.today {
   width: 342px;
   height: 482px;
-  background-color: #1C070F;
+  background-color: #1c070f;
   margin: auto;
   border-radius: 10px;
-  margin-top: 60px;  
+  margin-top: 60px;
 }
 
-.klova1{ 
+.klova1 {
   display: flex;
   justify-content: center;
 }
 
-
-.today img{
+.today img {
   width: 74px;
   height: 74px;
   margin-top: 40px;
 }
 
-.commit{
+.commit {
   width: 302px;
   font-size: 15px;
   margin: 0 auto;
   text-align: center;
   margin-top: 40px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-.commit h2{
+.commit h2 {
   font-size: 32px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-.commit p{
+.commit p {
   font-weight: 100px;
   line-height: 24px;
 }
 
-.services{
+.services {
   width: 302px;
   display: flex;
   flex-direction: column;
@@ -238,7 +232,7 @@ a {
   margin-top: 30px;
 }
 
-.btn1{
+.btn1 {
   width: 302px;
   height: 56px;
   background-color: #ff4337;
@@ -257,9 +251,9 @@ a {
   height: 24px;
   align-items: center;
   margin-top: -1px;
-} 
+}
 
-.btn2{
+.btn2 {
   width: 302px;
   height: 56px;
   background-color: white;
@@ -278,37 +272,35 @@ a {
   height: 24px;
   align-items: center;
   margin-top: -1px;
-} 
+}
 
-
-.offer{
+.offer {
   width: 342px;
   height: 198px;
-  background-color: #FFECEB;
+  background-color: #ffeceb;
   border-radius: 10px;
   margin: auto;
 }
 
-.offer h3{
+.offer h3 {
   font-size: 20px;
   padding-top: 15px;
   margin-left: 20px;
   font-size: 20px;
 }
 
-.offer p{
+.offer p {
   padding-top: 5px;
   margin-left: 20px;
   font-size: 15px;
 }
 
-.first{
+.first {
   width: 310px;
   height: 74px;
 }
 
-
-.subscribe-box{
+.subscribe-box {
   width: 310px;
   background: white;
   border-radius: 20px;
@@ -321,15 +313,14 @@ a {
   margin-top: 30px;
 }
 
-.input-area{
+.input-area {
   display: flex;
   align-items: center;
   flex: 1;
   padding: 0 18px;
 }
 
-
-input{
+input {
   border: none;
   outline: none;
   background: transparent;
@@ -338,11 +329,11 @@ input{
   width: 100%;
 }
 
-input::placeholder{
+input::placeholder {
   color: #6f7684;
 }
 
-button{
+button {
   width: 90px;
   height: 30px;
   border: none;
@@ -355,10 +346,9 @@ button{
   transition: 0.3s ease;
 }
 
-button:hover{
+button:hover {
   background: #e53935;
 }
-
 
 footer {
   max-width: 1200px;
@@ -397,36 +387,34 @@ footer p {
   padding-top: 20px;
 }
 
-.flag{
+.flag {
   display: none;
 }
 
-
-@media screen and (min-width: 700px){
-
-  .hero{
-  max-width: 1300px;
-  /* height: 900px; */
-  margin: auto;
-  padding: 20px;
+@media screen and (min-width: 700px) {
+  .hero {
+    max-width: 1300px;
+    /* height: 900px; */
+    margin: auto;
+    padding: 20px;
   }
 
-  .career{
+  .career {
     width: 342px;
     height: 152px;
     margin: 0;
   }
 
-  .career h1{
+  .career h1 {
     margin-bottom: 20px;
     margin-top: 20px;
   }
 
-  .career p{
+  .career p {
     color: #9a9ea6;
   }
 
-  .btn{
+  .btn {
     width: 342px;
     height: 48px;
     background-color: #ff4337;
@@ -439,7 +427,7 @@ footer p {
     font-size: 20px;
   }
 
-  .hero img{
+  .hero img {
     width: 100%;
     display: block;
     margin: 0 auto;
@@ -447,7 +435,7 @@ footer p {
     border-radius: 20px;
   }
 
-  .culture{
+  .culture {
     width: 400px;
     height: 20px;
     display: block;
@@ -456,42 +444,42 @@ footer p {
     font-size: 24px;
   }
 
-  .open{
+  .open {
     max-width: 1300px;
     padding: 20px;
     margin: auto;
     margin-top: 450px;
   }
 
-  .policy{
+  .policy {
     width: 342px;
     height: 60px;
     margin: 0;
     line-height: 40px;
   }
 
-  .policy h4{
+  .policy h4 {
     font-size: 30px;
   }
 
-  .policy p{
+  .policy p {
     display: none;
   }
 
-  .senior-dev{
+  .senior-dev {
     max-width: 100%;
-    margin: auto;   
+    margin: auto;
   }
 
-  .toronto{
+  .toronto {
     width: 100%;
-    background-color: #EFF1F7;
+    background-color: #eff1f7;
     margin: 0 auto;
     border-radius: 20px;
     margin-top: 30px;
   }
 
-  .full-time{
+  .full-time {
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -499,94 +487,93 @@ footer p {
     display: none;
   }
 
-  .web{
+  .web {
     font-size: 20px;
     font-weight: 600;
     padding-top: 15px;
     padding-left: 19px;
   }
 
-  .card{
+  .card {
     width: 500px;
-    
-    padding-left: 19px; 
+
+    padding-left: 19px;
     padding-top: 5px;
     font-size: 16px;
     color: grey;
   }
 
-  .time{
+  .time {
     width: 97%;
     display: flex;
     align-items: center;
   }
 
-  .calendar{
+  .calendar {
     display: flex;
     align-items: center;
     gap: 10px;
   }
 
-  .flag{
+  .flag {
     display: flex;
     align-items: center;
     gap: 5px;
   }
 
-  .build{
+  .build {
     max-width: 1300px;
     padding: 20px;
     margin: auto;
     margin-bottom: 40px;
   }
 
-  .link{
+  .link {
     display: none;
   }
 
-  .today{
+  .today {
     width: 100%;
     height: 703px;
-    background-color: #1C070F;
+    background-color: #1c070f;
     margin: auto;
     border-radius: 20px;
-    margin-top: 60px;  
+    margin-top: 60px;
   }
 
-  .klova1{ 
+  .klova1 {
     display: flex;
     justify-content: center;
   }
 
-
-  .today img{
+  .today img {
     width: 149px;
     height: 149px;
     margin-top: 60px;
   }
 
-  .commit{
+  .commit {
     width: 50%;
     font-size: 15px;
     margin: 0 auto;
     text-align: center;
     margin-top: 50px;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 
-  .commit h2{
+  .commit h2 {
     font-size: 60px;
     margin-top: 20px;
     margin-bottom: 20px;
   }
 
-  .commit p{
+  .commit p {
     font-size: 16px;
     font-weight: 100px;
     line-height: 40px;
   }
 
-  .services{
+  .services {
     width: 500px;
     height: 60px;
     display: flex;
@@ -596,7 +583,7 @@ footer p {
     margin-top: 80px;
   }
 
-  .btn1{
+  .btn1 {
     width: 242px;
     height: 60px;
     background-color: #ff4337;
@@ -615,9 +602,9 @@ footer p {
     height: 24px;
     align-items: center;
     margin-top: -1px;
-  } 
+  }
 
-  .btn2{
+  .btn2 {
     width: 242px;
     height: 60px;
     background-color: white;
@@ -636,31 +623,30 @@ footer p {
     height: 24px;
     align-items: center;
     margin-top: -1px;
-  } 
+  }
 
-  .newsletter{
+  .newsletter {
     max-width: 1300px;
     padding: 20px;
     margin: auto;
   }
 
-
-  .offer{
+  .offer {
     width: 100%;
     height: 198px;
-    background-color: #FFECEB;
+    background-color: #ffeceb;
     border-radius: 10px;
     margin: auto;
   }
 
-  .offer h3{
+  .offer h3 {
     font-size: 20px;
     padding-top: 20px;
     margin-left: 20px;
     font-size: 20px;
   }
 
-  .offer p{
+  .offer p {
     padding-top: 5px;
     margin-left: 20px;
     font-size: 15px;
@@ -668,13 +654,12 @@ footer p {
     display: flex;
   }
 
-  .first{
+  .first {
     width: 700px;
     height: 74px;
   }
 
-
-  .subscribe-box{
+  .subscribe-box {
     width: 90%;
     background: white;
     border-radius: 20px;
@@ -687,15 +672,14 @@ footer p {
     margin-top: 30px;
   }
 
-  .input-area{
+  .input-area {
     display: flex;
     align-items: center;
     flex: 1;
     padding: 0 18px;
   }
 
-
-  input{
+  input {
     border: none;
     outline: none;
     background: transparent;
@@ -704,11 +688,11 @@ footer p {
     width: 100%;
   }
 
-  input::placeholder{
+  input::placeholder {
     color: #6f7684;
   }
 
-  button{
+  button {
     width: 90px;
     height: 30px;
     border: none;
@@ -721,12 +705,9 @@ footer p {
     transition: 0.3s ease;
   }
 
-  button:hover{
+  button:hover {
     background: #e53935;
   }
-
-
-
 }
 
 @media screen and (max-width: 768px) {
@@ -765,9 +746,6 @@ footer p {
     border: 1px solid #ddd;
     padding: 20px 30px;
   }
-
-
-
 
   footer {
     max-width: 1200px;
