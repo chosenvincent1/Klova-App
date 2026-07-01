@@ -485,6 +485,23 @@ footer p {
 }
 
 
+@media screen and (max-width: 600px) {
+  .container{
+    display: none;
+  }
+
+  .container-2{
+    display: none;
+  }
+
+  .container-3{
+    display: none;
+  }
+}
+
+
+
+
 
 @media screen and (max-width: 768px) {
   .Desktop {
@@ -560,7 +577,12 @@ footer p {
     gap: 10px;
     align-items: flex-start;
   }
+
+  
 }
+
+
+  
 
 
 @media screen and (min-width: 700px){
@@ -953,6 +975,8 @@ footer p {
   button:hover{
     background: #e53935;
   }
+
+
 }
 
 
